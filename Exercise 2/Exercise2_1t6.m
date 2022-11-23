@@ -1,15 +1,9 @@
 clc; close all; clear;
 
 N = 100;
-M = 4;
+M = 2;
 X = [1 + 1i, -1 + 1i, 1 - 1i, -1 - 1i ];
 K = 1000;
-
-%% 1
-h = zeros(M,N);
-for div = 1 : M
-h(div,:) = (randn(1,N) + 1i*randn(1,N))*sqrt(1/2);
-end
 
 %% 3
 snr_db = 0 : 2 : 20;
@@ -20,6 +14,12 @@ for snr = 1 : snr_size
     err_bits = 0;
     N_0 = 2/10^(snr_db(snr)/10);
     for packet = 1 : K
+        %% 1
+        h = zeros(M,N);
+        for div = 1 : M
+            h(div,:) = (randn(1,N) + 1i*randn(1,N))*sqrt(1/2);
+        end
+        
         %% 2
         s = 1 - (randi(2,[1,N])-1)*2 + 1i*(  1 - (randi(2,[1,N])-1)*2 );
 
