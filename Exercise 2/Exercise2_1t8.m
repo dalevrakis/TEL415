@@ -140,7 +140,7 @@ snr_BER_alamouti = zeros(snr_size,1);
 
 for snr = 1 : snr_size
     err_bits = 0;
-    N_0 = 2/10^(snr_db(snr)/10);
+    N_0 = 4/10^(snr_db(snr)/10);
     for packet = 1 : K
         %% 1
         h_1 = (randn(1,N/2) + 1i*randn(1,N/2))*sqrt(1/2);
