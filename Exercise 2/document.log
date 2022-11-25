@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  25 NOV 2022 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  25 NOV 2022 20:33
 entering extended mode
 **./document.tex
 (document.tex
@@ -283,135 +283,85 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count292
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
 
- (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Overfull \hbox (3.40244pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+
+(C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<fig1.png, id=1, 1927.2pt x 724.95844pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 64.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig2.png, id=2, 1927.2pt x 724.95844pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 68.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig1_b.png, id=3, 1927.2pt x 724.95844pt>
-File: fig1_b.png Graphic file (type png)
-<use fig1_b.png>
-Package pdftex.def Info: fig1_b.png  used on input line 77.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig2_b.png, id=4, 1927.2pt x 724.95844pt>
-File: fig2_b.png Graphic file (type png)
-<use fig2_b.png>
-Package pdftex.def Info: fig2_b.png  used on input line 81.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
+Overfull \hbox (45.70236pt too wide) in paragraph at lines 55--56
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (31.60239pt too wide) in paragraph at lines 63--64
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 [1
 
-{C:/Users/dalev/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./fig1.png 
-(PNG copy)> <./fig2.png (PNG copy)> <./fig1_b.png (PNG copy)> <./fig2_b.png (PN
-G copy)>] [3]
-<fig3.png, id=22, 1927.2pt x 724.95844pt>
+{C:/Users/dalev/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+<fig1.png, id=20, 421.575pt x 316.0608pt>
+File: fig1.png Graphic file (type png)
+<use fig1.png>
+Package pdftex.def Info: fig1.png  used on input line 103.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+<fig2.png, id=21, 421.575pt x 316.0608pt>
+File: fig2.png Graphic file (type png)
+<use fig2.png>
+Package pdftex.def Info: fig2.png  used on input line 117.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+ [3 <./fig1.png (PNG copy)> <./fig2.png (PNG copy)>]
+<fig3.png, id=25, 421.575pt x 316.0608pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 107.
-(pdftex.def)             Requested size: 414.6463pt x 155.97363pt.
-<fig3_b.png, id=23, 1927.2pt x 724.95844pt>
-File: fig3_b.png Graphic file (type png)
-<use fig3_b.png>
-Package pdftex.def Info: fig3_b.png  used on input line 112.
-(pdftex.def)             Requested size: 414.6463pt x 155.97363pt.
- [4 <./fig3.png (PNG copy)> <./fig3_b.png (PNG copy)>]
-<fig4.png, id=29, 1927.2pt x 724.95844pt>
+Package pdftex.def Info: fig3.png  used on input line 137.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+<fig4.png, id=26, 421.575pt x 316.0608pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 128.
-(pdftex.def)             Requested size: 414.6463pt x 155.97363pt.
-<fig4_b.png, id=30, 1927.2pt x 724.95844pt>
-File: fig4_b.png Graphic file (type png)
-<use fig4_b.png>
-Package pdftex.def Info: fig4_b.png  used on input line 132.
-(pdftex.def)             Requested size: 414.6463pt x 155.97363pt.
- [5 <./fig4.png (PNG copy)> <./fig4_b.png (PNG copy)>]
-<fig5.png, id=34, 1927.2pt x 724.95844pt>
-File: fig5.png Graphic file (type png)
-<use fig5.png>
-Package pdftex.def Info: fig5.png  used on input line 144.
-(pdftex.def)             Requested size: 414.6463pt x 155.97363pt.
-<fig5_b.png, id=35, 1927.2pt x 724.95844pt>
-File: fig5_b.png Graphic file (type png)
-<use fig5_b.png>
-Package pdftex.def Info: fig5_b.png  used on input line 148.
-(pdftex.def)             Requested size: 414.6463pt x 155.97363pt.
- [6 <./fig5.png (PNG copy)> <./fig5_b.png (PNG copy)>]
-<fig6.png, id=39, 1927.2pt x 724.95844pt>
-File: fig6.png Graphic file (type png)
-<use fig6.png>
-Package pdftex.def Info: fig6.png  used on input line 160.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig7.png, id=40, 1927.2pt x 724.95844pt>
-File: fig7.png Graphic file (type png)
-<use fig7.png>
-Package pdftex.def Info: fig7.png  used on input line 164.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig6_b.png, id=41, 1927.2pt x 724.95844pt>
-File: fig6_b.png Graphic file (type png)
-<use fig6_b.png>
-Package pdftex.def Info: fig6_b.png  used on input line 173.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig7_b.png, id=42, 1927.2pt x 724.95844pt>
-File: fig7_b.png Graphic file (type png)
-<use fig7_b.png>
-Package pdftex.def Info: fig7_b.png  used on input line 177.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig8.png, id=43, 1927.2pt x 724.95844pt>
-File: fig8.png Graphic file (type png)
-<use fig8.png>
-Package pdftex.def Info: fig8.png  used on input line 186.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-<fig8_b.png, id=44, 1927.2pt x 724.95844pt>
-File: fig8_b.png Graphic file (type png)
-<use fig8_b.png>
-Package pdftex.def Info: fig8_b.png  used on input line 190.
-(pdftex.def)             Requested size: 331.71829pt x 124.77892pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./fig6.png (PNG copy)> <./fig7.png (PNG copy)> <./fig6_b.png (PNG copy)> <.
-/fig7_b.png (PNG copy)>] [8 <./fig8.png (PNG copy)> <./fig8_b.png (PNG copy)>]
-(document.aux) ) 
+Package pdftex.def Info: fig4.png  used on input line 144.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+ [4 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>] [5] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 5959 strings out of 478927
- 93151 string characters out of 2852534
- 391261 words of memory out of 3000000
- 23748 multiletter control sequences out of 15000+600000
- 409930 words of font info for 52 fonts, out of 8000000 for 9000
+ 6741 strings out of 478927
+ 100839 string characters out of 2852534
+ 583344 words of memory out of 3000000
+ 24535 multiletter control sequences out of 15000+600000
+ 409340 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,80p,298b,607s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dalev/AppData/Local/Progra
+ 72i,14n,80p,247b,1772s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\U
+sers\dalev\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>
+<C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmbx8.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmex10.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dalev/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dalev/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dalev/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/da
-lev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb>
-Output written on document.pdf (8 pages, 979292 bytes).
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dalev/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dal
+ev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
+ers/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb>
+Output written on document.pdf (5 pages, 227966 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

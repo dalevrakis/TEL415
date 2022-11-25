@@ -61,7 +61,20 @@ for snr = 1 : snr_size
     
     snr_Pe(snr) = nchoosek(2*M-1,M)*( 1/( (4^M) * snr_db(snr)^M ) );
 end
-figure;
+fig1=figure;
+semilogy(snr_db,snr_BER)
+xlabel('$SNR_{db}$','Interpreter','latex');
+ylabel('BER','Interpreter','latex');
+% title('Real part visualization of h');
+saveas(fig1,'fig1.png')
+
+fig2=figure;
 semilogy(snr_db,snr_BER)
 hold on
 semilogy(snr_db,snr_Pe)
+xlabel('$SNR_{db}$','Interpreter','latex');
+ylabel('BER','Interpreter','latex');
+legend({'MRC BER','Theoretical BER'},'Interpreter','latex');
+saveas(fig2,'fig2.png')
+legend show
+% title('Real part visualization of h');

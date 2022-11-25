@@ -11,12 +11,16 @@ snr_db = 0 : 2 : 20;
 snr_size = size(snr_db,2);
 snr_BER_ml = zeros(snr_size,1);
 snr_BER_decol = zeros(snr_size,1);
-snr_Pe = zeros(snr_size,1);
+
+ml_average_runtime = zeros(snr_size,1);
+decol_average_runtime = zeros(snr_size,1);
+% snr_Pe = zeros(snr_size,1);
 
 for snr = 1 : snr_size
     err_bits_ml = 0;
     err_bits_decol = 0;
     N_0 = 2/10^(snr_db(snr)/10);
+    
     for packet = 1 : K
         %% 1
         h = zeros(2,2,N);
@@ -44,6 +48,7 @@ for snr = 1 : snr_size
 %             Y(div_i,:) = squeeze(h(div_i,1,:))'.*X(1,:) + squeeze(h(div_i,2,:))'.*X(2,:) + W(div_i,:);
 %         end
         
+        tic;
         for t = 1:N
             Y(:,t) = h(:,:,t)*X(:,t) + W(:,t);
         end
@@ -79,8 +84,11 @@ for snr = 1 : snr_size
         err_bits_ml = err_bits_ml + sum( abs( (error_matrix_ml(1,:)).^2 )/4 );
         err_bits_ml = err_bits_ml + sum( abs( (error_matrix_ml(2,:)).^2 )/4 );
         
+        packet_end = toc;
+        ml_average_runtime(snr) = ml_average_runtime(snr) + packet_end;
         
         %% 4 b
+        tic;
         X_tilde = zeros(2,N);
         for t = 1 : N
             X_tilde(:,t) = h(:,:,t)\Y(:,t);
@@ -116,6 +124,9 @@ for snr = 1 : snr_size
         
         err_bits_decol = err_bits_decol + sum( abs( (error_matrix_decol(1,:)).^2 )/4 );
         err_bits_decol = err_bits_decol + sum( abs( (error_matrix_decol(2,:)).^2 )/4 );
+        
+        packet_end = toc;
+        decol_average_runtime(snr) = decol_average_runtime(snr) + packet_end;
     end
     snr_BER_ml(snr) = err_bits_ml/(N*K);
     
@@ -125,3 +136,16 @@ figure;
 semilogy(snr_db,snr_BER_ml)
 hold on
 semilogy(snr_db,snr_BER_decol)
+
+ml_average_runtime = ml_average_runtime/K;
+decol_average_runtime = decol_average_runtime/K;
+
+figure;
+semilogy(snr_db,ml_average_runtime)
+hold on
+semilogy(snr_db,decol_average_runtime)
+
+figure;
+plot(snr_db,ml_average_runtime)
+hold on
+plot(snr_db,decol_average_runtime)
