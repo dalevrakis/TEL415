@@ -203,7 +203,7 @@ for snr = 1 : snr_size
     end
     snr_BER_alamouti(snr) = err_bits/(N*K);
 end
-figure;
+fig6=figure;
 semilogy(snr_db,snr_BER_alamouti)
 hold on
 
@@ -212,5 +212,8 @@ semilogy(snr_db,snr_BER_BT)
 semilogy(snr_db,snr_BER_MRC)
 
 semilogy(snr_db,snr_Pe)
+xlabel('$SNR_{db}$','Interpreter','latex');
+ylabel('BER','Interpreter','latex');
 legend('Alamouti','Beam Tranforming','MRC','Theoretical');
 legend show
+saveas(fig6,'fig6.png')

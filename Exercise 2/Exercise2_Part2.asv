@@ -132,37 +132,25 @@ for snr = 1 : snr_size
     
     snr_BER_decol(snr) = err_bits_decol/(N*K);
 end
-fig7=figure;
+figure;
 semilogy(snr_db,snr_BER_ml)
 hold on
 semilogy(snr_db,snr_BER_decol)
 
-xlabel('$SNR_{db}$','Interpreter','latex');
-ylabel('BER','Interpreter','latex');
-legend('Maximum Likelihood','decorrelator');
+legend('Maxim','Beam Tranforming','MRC','Theoretical');
 legend show
-saveas(fig7,'fig7.png')
+saveas(fig6,'fig6.png')
 
 
 ml_average_runtime = ml_average_runtime/K;
 decol_average_runtime = decol_average_runtime/K;
 
-fig8=figure;
+figure;
 semilogy(snr_db,ml_average_runtime)
 hold on
 semilogy(snr_db,decol_average_runtime)
-xlabel('$SNR_{db}$','Interpreter','latex');
-ylabel('Run Time','Interpreter','latex');
-legend('Maximum Likelihood','decorrelator');
-legend show
-saveas(fig8,'fig8.png')
 
-fig9=figure;
+figure;
 plot(snr_db,ml_average_runtime)
 hold on
 plot(snr_db,decol_average_runtime)
-xlabel('$SNR_{db}$','Interpreter','latex');
-ylabel('Run Time','Interpreter','latex');
-legend('Maximum Likelihood','decorrelator');
-legend show
-saveas(fig9,'fig9.png')

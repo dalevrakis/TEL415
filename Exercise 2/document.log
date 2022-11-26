@@ -1,33 +1,35 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  25 NOV 2022 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.10)  26 NOV 2022 21:51
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./document.tex
 (document.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27>
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28>
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
 
 For additional information on amsmath, use the `?' option.
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
@@ -39,32 +41,42 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count190
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count191
-\leftroot@=\count192
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count193
-\DOTSCASE@=\count194
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box50
-\strutbox@=\box51
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen141
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count195
-\c@MaxMatrixCols=\count196
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip16
-\c@parentequation=\count197
-\dspbrk@lvl=\count198
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
 \tag@help=\toks17
-\row@=\count199
-\column@=\count266
-\maxfields@=\count267
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
 \andhelp@=\toks18
 \eqnshift@=\dimen142
 \alignsep@=\dimen143
@@ -76,11 +88,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \multlinegap=\skip50
 \multlinetaggap=\skip51
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -88,10 +100,14 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)) (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\mdwmath.sty
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen148
+\stockheight=\dimen149
+)
+(C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/mdwtools\mdwmath.sty
 Package: mdwmath 1996/04/11 1.1 Nice mathematical things
-\sq@sqrt=\count268
+\sq@sqrt=\count271
 LaTeX Info: Redefining \sqrt on input line 84.
 ) (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -106,29 +122,29 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/epsf\epsf.sty
 This is `epsf.tex' v2.7.4 <14 February 2011>
 \epsffilein=\read2
-\epsfframemargin=\dimen148
-\epsfframethickness=\dimen149
-\epsfrsize=\dimen150
-\epsftmp=\dimen151
-\epsftsize=\dimen152
-\epsfxsize=\dimen153
-\epsfysize=\dimen154
-\pspoints=\dimen155
+\epsfframemargin=\dimen150
+\epsfframethickness=\dimen151
+\epsfrsize=\dimen152
+\epsftmp=\dimen153
+\epsftsize=\dimen154
+\epsfxsize=\dimen155
+\epsfysize=\dimen156
+\pspoints=\dimen157
 ) (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
 fg
@@ -136,11 +152,11 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
 )
-\epsfxsize=\dimen158
-\epsfysize=\dimen159
+\epsfxsize=\dimen160
+\epsfysize=\dimen161
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
@@ -152,79 +168,76 @@ Package: a4wide 1994/08/30
 Package: a4 2020/02/18 v1.2g A4 based page layout
 ))
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen160
-\captionmargin@=\dimen161
-\captionwidth=\dimen162
-\caption@tempdima=\dimen163
-\caption@indent=\dimen164
-\caption@parindent=\dimen165
-\caption@hangindent=\dimen166
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen162
+\captionmargin=\dimen163
+\caption@leftmargin=\dimen164
+\caption@rightmargin=\dimen165
+\caption@width=\dimen166
+\caption@indent=\dimen167
+\caption@parindent=\dimen168
+\caption@hangindent=\dimen169
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count269
-\c@continuedfloat=\count270
+\c@caption@flags=\count272
+\c@continuedfloat=\count273
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count271
-\c@subtable=\count272
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count274
+\c@subtable=\count275
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
-Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count273
-\calc@Bcount=\count274
-\calc@Adimen=\dimen167
-\calc@Bdimen=\dimen168
+\calc@Acount=\count276
+\calc@Bcount=\count277
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count275
+\calc@Ccount=\count278
 \calc@Cskip=\skip54
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count276
-\l_MT_multwidth_dim=\dimen169
+\g_MT_multlinerow_int=\count279
+\l_MT_multwidth_dim=\dimen172
 \origjot=\skip55
-\l_MT_shortvdotswithinadjustabove_dim=\dimen170
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen171
-\l_MT_above_intertext_sep=\dimen172
-\l_MT_below_intertext_sep=\dimen173
-\l_MT_above_shortintertext_sep=\dimen174
-\l_MT_below_shortintertext_sep=\dimen175
-\xmathstrut@box=\box52
-\xmathstrut@dim=\dimen176
+\l_MT_shortvdotswithinadjustabove_dim=\dimen173
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen174
+\l_MT_above_intertext_sep=\dimen175
+\l_MT_below_intertext_sep=\dimen176
+\l_MT_above_shortintertext_sep=\dimen177
+\l_MT_below_shortintertext_sep=\dimen178
+\xmathstrut@box=\box53
+\xmathstrut@dim=\dimen179
 ) (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count277
-\lst@gtempboxa=\box53
+\lst@mode=\count280
+\lst@gtempboxa=\box54
 \lst@token=\toks22
-\lst@length=\count278
-\lst@currlwidth=\dimen177
-\lst@column=\count279
-\lst@pos=\count280
-\lst@lostspace=\dimen178
-\lst@width=\dimen179
-\lst@newlines=\count281
-\lst@lineno=\count282
-\lst@maxwidth=\dimen180
+\lst@length=\count281
+\lst@currlwidth=\dimen180
+\lst@column=\count282
+\lst@pos=\count283
+\lst@lostspace=\dimen181
+\lst@width=\dimen182
+\lst@newlines=\count284
+\lst@lineno=\count285
+\lst@maxwidth=\dimen183
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count283
-\lst@skipnumbers=\count284
-\lst@framebox=\box54
+\c@lstnumber=\count286
+\lst@skipnumbers=\count287
+\lst@framebox=\box55
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -233,9 +246,9 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box55
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box56
 ) (document.aux)
 \openout1 = `document.aux'.
 
@@ -257,16 +270,16 @@ LaTeX Font Info:    ... okay on input line 24.
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen181
-\scratchbox=\box56
-\nofMPsegments=\count287
-\nofMParguments=\count288
+\scratchcounter=\count289
+\scratchdimen=\dimen184
+\scratchbox=\box57
+\nofMPsegments=\count290
+\nofMParguments=\count291
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen182
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen185
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks24
 )
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -282,7 +295,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count292
+\c@lstlisting=\count295
 
 (C:\Users\dalev\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -313,7 +326,7 @@ Overfull \hbox (31.60239pt too wide) in paragraph at lines 63--64
 
 [1
 
-{C:/Users/dalev/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2]
+{C:/Users/dalev/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 <fig1.png, id=20, 421.575pt x 316.0608pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
@@ -324,44 +337,99 @@ File: fig2.png Graphic file (type png)
 <use fig2.png>
 Package pdftex.def Info: fig2.png  used on input line 117.
 (pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
- [3 <./fig1.png (PNG copy)> <./fig2.png (PNG copy)>]
+
+[3 <./fig1.png (PNG copy)> <./fig2.png (PNG copy)>]
 <fig3.png, id=25, 421.575pt x 316.0608pt>
 File: fig3.png Graphic file (type png)
 <use fig3.png>
-Package pdftex.def Info: fig3.png  used on input line 137.
+Package pdftex.def Info: fig3.png  used on input line 149.
 (pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
-<fig4.png, id=26, 421.575pt x 316.0608pt>
+ [4 <./fig3.png (PNG copy)>]
+<fig4.png, id=29, 421.575pt x 316.0608pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
-Package pdftex.def Info: fig4.png  used on input line 144.
+Package pdftex.def Info: fig4.png  used on input line 157.
 (pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
- [4 <./fig3.png (PNG copy)> <./fig4.png (PNG copy)>] [5] (document.aux) ) 
+[5 <./fig4.png (PNG copy)>]
+<fig5.png, id=33, 421.575pt x 316.0608pt>
+File: fig5.png Graphic file (type png)
+<use fig5.png>
+Package pdftex.def Info: fig5.png  used on input line 203.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+<fig6.png, id=34, 421.575pt x 316.0608pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 211.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+ [6 <./fig5.png (PNG copy)> <./fig6.png (PNG copy)>]
+Overfull \hbox (77.91806pt too wide) detected at line 258
+[]
+ []
+
+[7]
+Overfull \hbox (116.20224pt too wide) in paragraph at lines 271--272
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (165.55215pt too wide) in paragraph at lines 280--281
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+ []
+
+
+Overfull \hbox (45.70236pt too wide) in paragraph at lines 288--289
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+<fig7.png, id=42, 421.575pt x 316.0608pt>
+File: fig7.png Graphic file (type png)
+<use fig7.png>
+Package pdftex.def Info: fig7.png  used on input line 308.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<fig8.png, id=43, 421.575pt x 316.0608pt>
+File: fig8.png Graphic file (type png)
+<use fig8.png>
+Package pdftex.def Info: fig8.png  used on input line 314.
+(pdftex.def)             Requested size: 230.36061pt x 172.70546pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9 <./fig7.png (PNG copy)> <./fig8.png (PNG copy)>] (document.aux) ) 
 Here is how much of TeX's memory you used:
- 6741 strings out of 478927
- 100839 string characters out of 2852534
- 583344 words of memory out of 3000000
- 24535 multiletter control sequences out of 15000+600000
- 409340 words of font info for 49 fonts, out of 8000000 for 9000
+ 7241 strings out of 475385
+ 114547 string characters out of 2776906
+ 639939 words of memory out of 3000000
+ 28549 multiletter control sequences out of 15000+600000
+ 475169 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,80p,247b,1772s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\U
-sers\dalev\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk>
-<C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmbx8.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dalev/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dalev/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dalev/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dal
-ev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Us
-ers/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb>
-Output written on document.pdf (5 pages, 227966 bytes).
+ 70i,14n,76p,279b,1772s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Us
+ers\dalev\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><
+C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx8.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/dalev/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/dalev/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/dalev/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dalev/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/dale
+v/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Use
+rs/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Users/dalev/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb>
+Output written on document.pdf (9 pages, 342818 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
