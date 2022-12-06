@@ -77,7 +77,13 @@ for snr = 1 : snr_size
     
     snr_Pe(snr) = nchoosek(2*M-1,M)*( 1/( (4^M) * snr_db(snr)^M ) );
 end
-figure;
+fig5=figure;
 semilogy(snr_db,snr_BER)
+
+xlabel('$SNR_{db}$','Interpreter','latex');
+ylabel('BER','Interpreter','latex');
+legend({'Alamouti BER'},'Interpreter','latex');
+saveas(fig5,'fig5.png')
+legend show
 % hold on
 % semilogy(snr_db,snr_Pe)
