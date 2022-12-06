@@ -1,0 +1,8 @@
+consensus-based gradient method
+combine-then-adapt
+adapt-then-combine
+
+push–sum method
+ratio consensus
+gradient–push method
+dual-averaging method of Nesterov
