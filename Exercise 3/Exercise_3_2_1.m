@@ -70,7 +70,7 @@ toc;
 figure;
 semilogy(snr_db,BER_snr);
 hold on
-fi = 0:0.1:20;
+fi = 0:0.1:16;
 semilogy(fi,1./(fi));
 semilogy(fi,1./(fi.^2));
 semilogy(fi,1./(fi.^3));
