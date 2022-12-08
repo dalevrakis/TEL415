@@ -29,10 +29,10 @@ for snr = 1 : size(snr_db,2)
         end
         h_bar_2 = (1/sqrt(N))*h_bar_2;
         
-%         figure;
-%         scatter(real(h_bar),imag(h_bar));
-%         hold on 
-%         scatter(real(h_bar_2),imag(h_bar_2));
+        figure;
+        scatter(real(h_bar),imag(h_bar));
+        hold on 
+        scatter(real(h_bar_2),imag(h_bar_2));
         
         % 4-QAM data block
         d = sign(-1+2*rand(N,1)) + 1i*sign(-1+2*rand(N,1));
@@ -46,10 +46,10 @@ for snr = 1 : size(snr_db,2)
         end
         d_bar_2 = (1/sqrt(N))*d_bar_2;
         
-%         figure;
-%         scatter(real(d_bar),imag(d_bar));
-%         hold on 
-%         scatter(real(d_bar_2),imag(d_bar_2));
+        figure;
+        scatter(real(d_bar),imag(d_bar));
+        hold on 
+        scatter(real(d_bar_2),imag(d_bar_2));
         
         % Channel input
         x = [d(N-L+2 : N) ; d];
@@ -73,33 +73,47 @@ for snr = 1 : size(snr_db,2)
             end
         end
         y_2 = y_2(L : end);
+        
+%         y_3 = zeros(N,1);
+%         for m = 1 : N
+%             y_3(m) = h(1)*d(m);
+%             for l = 1 : L-1
+%                 y_3(m) = y_3(m) + h(l+1)*d(N-l);
+%             end
+%         end
+        
+        figure;
+        scatter(real(y_1),imag(y_1));
+        hold on
+        scatter(real(y_2),imag(y_2));
+%         scatter(real(y_3)+0.2,imag(y_3)+0.2);
+        
         y_bar = sqrt(N)*h_bar.*d_bar;
         y_bar_2 = sqrt(N)*h_bar_2.*d_bar_2;
         
-%         figure;
-%         scatter(real(y_1),imag(y_1));
-%         hold on 
-%         scatter(real(y_2),imag(y_2));
+        figure;
+        scatter(real(y_1),imag(y_1));
+        hold on 
+        scatter(real(y_2),imag(y_2));
         
-%         figure;
-%         scatter(real(y_bar),imag(y_bar));
-%         hold on 
-%         scatter(real(y_bar_2),imag(y_bar_2));
+        figure;
+        scatter(real(y_bar),imag(y_bar));
+        hold on 
+        scatter(real(y_bar_2),imag(y_bar_2));
 
 %         y_2 = y_2 + w;
 %         y_bar = y_bar + w_bar;
         
-        y_ifft_0 = (1/sqrt(N))*ifft(y_2,N);
 %         figure;
 %         scatter(real(y_ifft_0),imag(y_ifft_0));
 %         hold on 
 %         scatter(real(y_bar),imag(y_bar));
 %         scatter(real(y_bar_2),imag(y_bar_2));
         
-        y_ifft = (1/sqrt(N))*ifft(y_bar,N);
-        y_ifft_2 = (1/sqrt(N))*ifft(y_bar_2,N);
+        y_ifft = sqrt(N)*ifft(y_bar,N);
+        y_ifft_2 = sqrt(N)*ifft(y_bar_2,N);
         figure;
-        scatter(real(y_ifft_0),imag(y_ifft_0));
+        scatter(real(y_2),imag(y_2));
         hold on 
         scatter(real(y_ifft),imag(y_ifft));
         scatter(real(y_ifft_2),imag(y_ifft_2));
