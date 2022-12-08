@@ -20,10 +20,11 @@ for snr = 1 : size(snr_db,2)
         % Channel response
         h = (randn(L,1) + 1i*randn(L,1))*sqrt(1/(2*L));
         h_bar = (1/sqrt(N))*fft(h,N);
+        
         % 4-QAM data block
         d = sign(-1+2*rand(N,1)) + 1i*sign(-1+2*rand(N,1));
-        
         d_bar = (1/sqrt(N))*fft(d,N);
+        
         % Channel input
         x = [d(N-L+2 : N) ; d];
         
@@ -32,22 +33,34 @@ for snr = 1 : size(snr_db,2)
         w_bar = (1/sqrt(N))*fft(w,N);
         
         % Received Signal
-        y = zeros(N,1);
-        for m = 1 : N
-            for l = 1 : L
-                y(m) = y(m) + h(l)*x( m+L-1-(l-1) );
+%         y = zeros(N,1);
+%         for m = 1 : N
+%             for l = 1 : L
+%                 y(m) = y(m) + h(l)*x( m+L-1-(l-1) );
+%             end
+%         end
+        
+        y = zeros(N+L-1,1);
+        for m = L : N+L-1
+            for l = 0 : L-1
+                y(m) = y(m) + h(l+1)*x(m-l);
             end
         end
-     
-%         figure;
-%         scatter(real(y),imag(y));
-%         y = y + w;
+        y = y(L : end);
+        y_bar = sqrt(N)*h_bar.*d_bar;
         
         figure;
         scatter(real(y),imag(y));
+        hold on 
+        scatter(real(y_bar),imag(y_bar));
         
-%         y_bar = sqrt(N)*h_bar.*d_bar + w_bar;
-        y_bar = sqrt(N)*h_bar.*d_bar;
+        y = y + w;
+        y_bar = y_bar + w_bar;
+        
+        figure;
+        scatter(real(y),imag(y));
+        hold on 
+        scatter(real(y_bar),imag(y_bar));
         
         y_ifft = (1/sqrt(N))*ifft(y_bar,N);
 %         y_dist = zeros(4,N);
