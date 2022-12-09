@@ -1,7 +1,8 @@
 clc; close all; clear;
 
 N = 128; % Sequence lengh
-L = 8; % Responce Length
+L = 4; % Responce Length
+Nc = N/L;
 Packets = 500;
 X = [1 + 1i, -1 + 1i, 1 - 1i, -1 - 1i ];
 
@@ -20,7 +21,8 @@ for snr = 1 : size(snr_db,2)
         h_tilde = (1/sqrt(N))*fft(h,N);
         
         % 4-QAM data block
-        d = sign(-1+2*rand(N,1)) + 1i*sign(-1+2*rand(N,1));
+        dc = sign(-1+2*rand(Nc,1)) + 1i*sign(-1+2*rand(Nc,1));
+        d = repmat(dc,L,1);
         d_tilde = (1/sqrt(N))*fft(d,N);
 
         % Channel input
