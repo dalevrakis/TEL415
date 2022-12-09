@@ -44,11 +44,16 @@ for snr = 1 : size(snr_db,2)
         %N-Parallel - Frequency Selective Comparison
         y_freq = sqrt(N)*ifft(y_tilde,N);
         
-%         figure;
-%         scatter(real(y),imag(y),'o');
-%         hold on
-%         scatter(real(y_freq),imag(y_freq),'x');
-        
+        fig11=figure;
+        scatter(real(y),imag(y),'o');
+        hold on
+        scatter(real(y_freq),imag(y_freq),'x');
+        xlabel('$Re$','Interpreter','latex');
+        ylabel('Im','Interpreter','latex');
+        legend({'y','$IDFT(\tilde{y})$'},'Interpreter','latex');
+        saveas(fig11,'fig11.png')
+        legend show
+
         y = y + w;
         y_tilde = y_tilde + w_tilde;
         y_freq_noise = sqrt(N)*ifft(y_tilde);
@@ -84,11 +89,17 @@ for snr = 1 : size(snr_db,2)
         
         err_bits = err_bits + sum( abs( (error_matrix).^2 )/4 );
         
-        figure;
+        fig12=figure;
         plot(1:N,abs(h_tilde))
         hold on
-        plot(1:N,abs(w_tilde))
+%         plot(1:N,abs(w_tilde))
         stem(error_indices,abs(h_tilde(error_indices)))
+        
+        xlabel('$N$','Interpreter','latex');
+        ylabel('Amplitude','Interpreter','latex');
+        legend({'$||\tilde(h)||$','Error Pos'},'Interpreter','latex');
+        saveas(fig12,'fig12.png')
+        legend show
         
         figure;
         plot(1:N,abs(h_tilde))

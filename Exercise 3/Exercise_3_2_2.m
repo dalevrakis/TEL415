@@ -1,6 +1,6 @@
 clc; close all; clear;
 
-K = 2; % User Number
+K = 5; % User Number
 M = 100; % Sequence lengh
 N = 128; % Code Length
 L = 3; % Responce Length
@@ -67,7 +67,7 @@ for snr = 1 : size(snr_db,2)
 %     scatter(real(r),imag(r));
 end
 toc;
-fig6=figure;
+fig10=figure;
 semilogy(snr_db,BER_snr);
 hold on
 fi = 0:0.1:16;
@@ -77,5 +77,5 @@ semilogy(fi,1./(fi.^3));
 xlabel('$SNR_{db}$','Interpreter','latex');
 ylabel('BER','Interpreter','latex');
 legend({'CDMA','$\frac{1}{SNR}$','$\frac{1}{SNR^2}$','$\frac{1}{SNR^3}$'},'Interpreter','latex');
-saveas(fig6,'fig6.png')
+saveas(fig10,'fig10.png')
 legend show

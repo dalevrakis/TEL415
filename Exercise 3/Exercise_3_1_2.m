@@ -58,10 +58,15 @@ for snr = 1 : size(snr_db,2)
 %     figure;
 %     scatter(real(r),imag(r));
 end
-figure;
+fig2=figure;
 semilogy(snr_db,BER_snr);
 hold on
 fi = 0:0.1:20;
 semilogy(fi,1./(fi));
 semilogy(fi,1./(fi.^2));
 semilogy(fi,1./(fi.^3));
+xlabel('$SNR_{db}$','Interpreter','latex');
+ylabel('BER','Interpreter','latex');
+legend({'CDMA','$\frac{1}{SNR}$','$\frac{1}{SNR^2}$','$\frac{1}{SNR^3}$'},'Interpreter','latex');
+saveas(fig2,'fig2.png')
+legend show
