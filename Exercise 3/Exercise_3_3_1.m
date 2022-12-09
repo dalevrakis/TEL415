@@ -44,19 +44,19 @@ for snr = 1 : size(snr_db,2)
         %N-Parallel - Frequency Selective Comparison
         y_freq = sqrt(N)*ifft(y_tilde,N);
         
-        figure;
-        scatter(real(y),imag(y),'o');
-        hold on
-        scatter(real(y_freq),imag(y_freq),'x');
+%         figure;
+%         scatter(real(y),imag(y),'o');
+%         hold on
+%         scatter(real(y_freq),imag(y_freq),'x');
         
         y = y + w;
         y_tilde = y_tilde + w_tilde;
         y_freq_noise = sqrt(N)*ifft(y_tilde);
         
-        figure;
-        scatter(real(y),imag(y),'o');
-        hold on
-        scatter(real(y_freq_noise),imag(y_freq_noise),'x');
+%         figure;
+%         scatter(real(y),imag(y),'o');
+%         hold on
+%         scatter(real(y_freq_noise),imag(y_freq_noise),'x');
         
         
         y_dec = y_tilde./h_tilde;
@@ -80,7 +80,7 @@ for snr = 1 : size(snr_db,2)
         end
 
         error_matrix = d-decision_matrix;
-        error_indices = find(error_matrix);
+        error_indices = find(abs(error_matrix));
         
         err_bits = err_bits + sum( abs( (error_matrix).^2 )/4 );
         
