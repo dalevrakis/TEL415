@@ -23,12 +23,12 @@ for snr = 1 : size(snr_db,2)
 
         c_l = zeros(N+L-1,L);
         for l = 1:L
-            c_l(l:N+l-1,l) = c; 
+            c_l(l:N+l-1,l) = c(:,1); 
         end
         
         %Channel response
-        h = (randn(1,L) + 1i*randn(1,L))*sqrt(1/(2*L));
-        norm_h = norm(h,2);
+        h = (randn(K,L) + 1i*randn(K,L))*sqrt(1/(2*L));
+        norm_h1 = norm(h(1,:),2);
         
         r = zeros(M,1);
         decision_matrix = zeros(M,1);
@@ -37,13 +37,13 @@ for snr = 1 : size(snr_db,2)
             x_m = s(m)*c_l;
             y = zeros(N+L-1,1);
             for l = 1 : L
-                y = y + h(l)*x_m(:,l);
+                y = y + h(1,l)*x_m(:,l);
             end
             y = y + ( randn(N+L-1,1) + 1i*randn(N+L-1,1) )*sqrt(N_0/2);
 
             % Rake Receiver
             for l = 1 : L
-                r(m) = r(m) + sum( (conj(h(l))/norm_h)*c_l(:,l).*y );
+                r(m) = r(m) + sum( (conj(h(1,l))/norm_h1)*c_l(:,l).*y );
             end
 
             decision_matrix(m) = sign(real(r(m)));
